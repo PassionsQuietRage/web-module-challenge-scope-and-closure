@@ -60,7 +60,8 @@ You will be running your tests in one terminal and debugging in the other. As yo
 
 Edit the `ReadMe` file with your answers to the questions below.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). A closure gives access to an outer function's scopre from an inner function.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -81,9 +82,11 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? In the console log statement because it references the function.
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? It's always a new roll and the number on the dice could change each roll.
+
+c. What is the lexical scope of `newRoll`? Math.floor(Math.random() * 6)
 
 
 ### Task 3 - Stretch Goals
